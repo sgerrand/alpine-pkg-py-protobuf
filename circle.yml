@@ -30,5 +30,5 @@ deployment:
     branch: master
     owner: sgerrand
     commands:
-      - ghr -u sgerrand --prerelease --delete unreleased packages
+      - ghr -u sgerrand --prerelease --delete unreleased packages || return 0
       - ghr -u sgerrand --prerelease unreleased packages/builder/x86_64
