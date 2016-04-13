@@ -16,8 +16,7 @@ to `apk`:
 
 ```
 apk --no-cache add ca-certificates
-wget
-https://github.com/sgerrand/alpine-pkg-py-protobuf/releases/download/2.6.1-r0/py-protobuf-2.6.1-r0.apk
+wget https://github.com/sgerrand/alpine-pkg-py-protobuf/releases/download/2.6.1-r0/py-protobuf-2.6.1-r0.apk
 apk --allow-untrusted add py-protobuf-2.6.1-r0.apk
 ```
 
